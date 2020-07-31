@@ -1,4 +1,39 @@
-html, body{
+html, body {
     margin: 0;
     font-family: Avenir Next, Helvetica;
+    color: white;
+}
+
+.cover {
+    height: 100vh;
+    background-color: rgb(51, 54, 69);
+    display: flex;
+}
+
+.left-side{
+    flex-basis: 50%;
+}
+
+.name-container{
+    font-size: 100px;
+    font-weight: 600;
+    padding-top: 150px;
+
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.right-side{
+    flex-basis: 50%;
+}
+
+.intro{
+    font-size: 35px;
 }
